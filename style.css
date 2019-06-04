@@ -2,7 +2,7 @@ body {
  font-family: 'Playfair Display', serif;
  color: #310A31;
   background-color: rgb(240,240,240);
-  background-image: url("images/leaves.png");
+  background-image: url("images/meduza.png");
    background-repeat: no-repeat;
   background-size: cover;
 }
@@ -72,7 +72,7 @@ img {
 }
 
 .container {
-  width: 900px
+  width: 900px;
   margin: 0 auto;
 }
 
