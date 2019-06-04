@@ -1,0 +1,97 @@
+body {
+ font-family: 'Playfair Display', serif;
+ color: #310A31;
+  background-color: rgb(240,240,240);
+  background-image: url("images/leaves.png");
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+  color: #ACD7EC;
+}
+
+h2 {
+  color: #666A86;
+}
+
+img {
+  width: 135px;
+  height: 130px;
+  border-radius: 80% ;
+}
+
+
+.card-white {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  width: 70%;
+  margin: 15px auto;
+  border-radius: 2px;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+}
+
+.btn-blue {
+  background-color: #669BBC;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 3s ease;
+
+}
+
+.btn-blue:hover {
+  background-color: #F4ECD6;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.list-inline li a {
+  color: rgb(30,30,30);
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+.list-inline li a:hover {
+  opacity: 1;
+}
+
+.container {
+  width: 900px
+  margin: 0 auto;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
